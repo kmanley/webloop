@@ -12,10 +12,10 @@ Scriptable, headless WebKit with a Go API. Like [PhantomJS](http://phantomjs.org
 
 * [Go](http://golang.org) >= 1.2rc1 (due to [#3250](https://code.google.com/p/go/issues/detail?id=3250))
 * [WebKitGTK+](http://webkitgtk.org/) >= 2.0.0
-* [go-webkit2](https://sourcegraph.com/github.com/sourcegraph/go-webkit2)
+* [go-webkit2](https://sourcegraph.com/github.com/kmanley/go-webkit2)
 
 For instructions on installing these dependencies, see the [go-webkit2
-README](https://sourcegraph.com/github.com/sourcegraph/go-webkit2@master/.tree/README.md).
+README](https://sourcegraph.com/github.com/kmanley/go-webkit2@master/.tree/README.md).
 
 To install WebLoop, run: `go get github.com/sourcegraph/webloop/...`
 
@@ -76,7 +76,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/conformal/gotk3/gtk"
+	"github.com/gotk3/gotk3/gtk"
 	"github.com/sourcegraph/webloop"
 )
 
